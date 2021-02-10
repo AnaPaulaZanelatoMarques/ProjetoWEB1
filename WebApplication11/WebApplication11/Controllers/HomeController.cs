@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using WebApplication1.Models;
+using WebApplication11.Models;
 
-namespace WebApplication1.Controllers
+namespace WebApplication11.Controllers
 {
     public class HomeController : Controller
     {
@@ -19,11 +19,6 @@ namespace WebApplication1.Controllers
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Index2()
         {
             return View();
         }
